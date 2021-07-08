@@ -1,6 +1,7 @@
 <template>
+  <img class="w-12 h-12 top-3 left-1 absolute" src="../assets/NathanD_Logo.png"/>
   <div class="px-12">
-    <h3 class="font-bold text-lg">What programming language should you start with?</h3>
+    <h3 v-if="questionIndex == 0" class="font-bold text-lg">What programming language should you start with?</h3>
     <Question :question="{text: 'This is not even a question??'}"/>
   </div>
 </template>
@@ -15,6 +16,7 @@ export default {
   },
   data() {
     return {
+      questionIndex: 1,
       paths: [
         'Web Developer',
         'Software Engineer',
