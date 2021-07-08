@@ -1,0 +1,24 @@
+{
+    "languages": [
+        "JavaScript",
+        "Python",
+        "Ruby",
+        "C",
+        "C++",
+        "Java",
+        "Flutter",
+        "SQL",
+        "GO",
+        "Swift",
+        "C#",
+        "TypeScript",
+        "PHP"
+    ],
+
+    "paths": [
+        "Web Developer",
+        "Software Engineer",
+        "Game Developer",
+        "Mobile Developer"
+    ]
+}

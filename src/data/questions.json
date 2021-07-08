@@ -1,0 +1,107 @@
+{
+    "questions": [
+        {
+            "text": "What do you have the strongest desire to build/design?",
+            "answers": [
+                {
+                    "text": "Websites / Webapps",
+                    "points": [
+                        "JavaScript",
+                        "TypeScript",
+                        "Ruby",
+                        "Python",
+                        "PHP"
+                    ]
+                },
+                {
+                    "text": "Games",
+                    "points": [
+                        "C#",
+                        "C++",
+                        "JavaScript"
+                    ]
+                },
+                {
+                    "text": "Computer Software",
+                    "points": [
+                        "Java",
+                        "JavaScript",
+                        "C++",
+                        "C",
+                        "C#"
+                    ]
+                },
+                {
+                    "text": "Mobile Apps",
+                    "points": [
+                        "Flutter",
+                        "GO",
+                        "Swift"
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "How long are you willing to study your new language before you are able to use it on real world projects?",
+            "answers": [
+                {
+                    "text": "A few months / Not too long",
+                    "points": [
+                        "JavaScript",
+                        "Ruby",
+                        "Python"
+                    ]
+                },
+                {
+                    "text": "A long time / 6 months to 1+ years",
+                    "points": [
+                        "JavaScript",
+                        "Python",
+                        "Ruby",
+                        "C",
+                        "C++",
+                        "Java",
+                        "Flutter",
+                        "SQL",
+                        "GO",
+                        "Swift",
+                        "C#",
+                        "TypeScript",
+                        "PHP"
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "How long are you willing to study your new language before you are able to use it on real world projects?",
+            "answers": [
+                {
+                    "text": "A few months / Not too long",
+                    "points": [
+                        "JavaScript",
+                        "Ruby",
+                        "Python"
+                    ]
+                },
+                {
+                    "text": "A long time / 6 months to 1+ years",
+                    "points": [
+                        "JavaScript",
+                        "Python",
+                        "Ruby",
+                        "C",
+                        "C++",
+                        "Java",
+                        "Flutter",
+                        "SQL",
+                        "GO",
+                        "Swift",
+                        "C#",
+                        "TypeScript",
+                        "PHP"
+                    ]
+                }
+            ]
+        }
+    ]  
+}
