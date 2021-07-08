@@ -1,12 +1,18 @@
 <template>
-  <div class="quiz">
-    
+  <div class="px-12">
+    <h3 class="font-bold text-lg">What programming language should you start with?</h3>
+    <Question :question="{text: 'This is not even a question??'}"/>
   </div>
 </template>
 
 <script>
+import Question from './quiz-partials/Question.vue'
+
 export default {
   name: 'Quiz',
+  components: {
+    Question,
+  },
   data() {
     return {
       paths: [
@@ -34,18 +40,5 @@ export default {
 </script>
 
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>
