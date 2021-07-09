@@ -9,9 +9,12 @@
       <h3 class="font-bold text-xl mt-24">What programming language should you start with?</h3>
       <button class="px-4 py-2 font-bold mt-12 border border-black rounded-lg bg-yellow-400" @click="beginQuiz">Begin Quiz</button>
     </div>
-    <div v-else>
+    <div v-else-if="!completed">
       <Question :text="questions[questionIndex].text"/>
-      <Answers :answers="questions[questionIndex].answers"/>
+      <Answers :answers="questions[questionIndex].answers" @onClick="nextQuestion($event)"/>
+    </div>
+    <div v-else>
+      <span>Results</span>
     </div>
   </div>
 </template>
@@ -20,6 +23,7 @@
 import Question from './quiz-partials/Question.vue';
 import Answers from './quiz-partials/Answers.vue';
 import questionInfo from "../data/questions.json";
+import language_data from "../data/language_data.json";
 
 export default {
   name: 'Quiz',
@@ -31,14 +35,30 @@ export default {
     return {
       questionIndex: null,
       questions: questionInfo.questions,
+      completed: false,
+      languages: language_data.languages,
     }
-  },
-  mounted() {
-    console.log(this.questions);
   },
   methods: {
     beginQuiz() {
       this.questionIndex = 0;
+    },
+    nextQuestion(points) {
+      this.calulatePoints(points);
+
+      this.questionIndex++;
+
+      if(this.questionIndex >= this.questions.length - 1) {
+        this.completed = true;
+        return;
+      }
+    },
+    calulatePoints(points) {
+      this.languages.forEach(language => {
+        if(points.includes(language.name)) {
+          language.points += 1;
+        }
+      });
     }
   }
   

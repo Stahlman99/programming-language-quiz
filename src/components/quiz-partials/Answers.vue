@@ -1,8 +1,8 @@
 <template>
   <div v-for="(answer, index) in answers" :key="index">
-    <div :class="cardClass(index)">
+    <button :class="cardClass(index)" @click="$emit('onClick', answer.points)">
       <h3 class="font-bold text-lg">{{answer.text}}</h3>
-    </div>
+    </button>
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   },
   methods: {
     cardClass(index) {
-      let baseClass = "px-4 py-2 mt-4 border border-black rounded-lg ";
+      let baseClass = "px-4 py-2 mt-4 border border-black rounded-lg w-full ";
 
       if (index == 0) {
         baseClass += "bg-blue-400"
