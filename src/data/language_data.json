@@ -5,7 +5,6 @@
             "link": "https://www.w3schools.com/js/"},
         { "name": "Python", "points": 0, "desc": "Python is recommended by many people as the best first language. It has a wide range of applications, can be useful in the fields of robotics and AI, and can be picked up quickly. Learn more here: ",
         "link": "https://www.learnpython.org/"},
-        { "name": "Ruby", "points": 0, "link": "https://www.ruby-lang.org/en/documentation/quickstart/"},
         { "name": "C", "points": 0,
             "desc": ""},
         { "name": "C++", "points": 0,

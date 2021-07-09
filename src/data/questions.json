@@ -8,7 +8,6 @@
                     "points": [
                         "JavaScript",
                         "TypeScript",
-                        "Ruby",
                         "Python",
                         "PHP"
                     ]
@@ -48,7 +47,6 @@
                     "text": "A few months / Not too long",
                     "points": [
                         "JavaScript",
-                        "Ruby",
                         "Python"
                     ]
                 },
@@ -57,7 +55,6 @@
                     "points": [
                         "JavaScript",
                         "Python",
-                        "Ruby",
                         "C",
                         "C++",
                         "Java",
@@ -139,7 +136,6 @@
                     "points": [
                         "JavaScript",
                         "Python",
-                        "Ruby",
                         "Java",
                         "Flutter",
                         "GO",
