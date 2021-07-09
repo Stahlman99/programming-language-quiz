@@ -1,18 +1,18 @@
 {
     "languages": [
-        "JavaScript",
-        "Python",
-        "Ruby",
-        "C",
-        "C++",
-        "Java",
-        "Flutter",
-        "SQL",
-        "GO",
-        "Swift",
-        "C#",
-        "TypeScript",
-        "PHP"
+        { "name": "JavaScript", "points": 0},
+        { "name": "Python", "points": 0},
+        { "name": "Ruby", "points": 0},
+        { "name": "C", "points": 0},
+        { "name": "C++", "points": 0},
+        { "name": "Java", "points": 0},
+        { "name": "Flutter", "points": 0},
+        { "name": "SQL", "points": 0},
+        { "name": "GO", "points": 0},
+        { "name": "Swift", "points": 0},
+        { "name": "C#", "points": 0},
+        { "name": "TypeScript", "points": 0},
+        { "name": "PHP", "points": 0}
     ],
 
     "paths": [
