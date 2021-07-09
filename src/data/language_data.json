@@ -1,27 +1,69 @@
 {
     "languages": [
-        { "name": "JavaScript", "points": 0,
-            "desc": "JavaScript is a great choice for anyone that wants to learn a well-rounded language in a reasonable amount of time. If you want to learn more about JavaScript, check out this resource: ",
-            "link": "https://www.w3schools.com/js/"},
-        { "name": "Python", "points": 0, "desc": "Python is recommended by many people as the best first language. It has a wide range of applications, can be useful in the fields of robotics and AI, and can be picked up quickly. Learn more here: ",
-        "link": "https://www.learnpython.org/"},
-        { "name": "C", "points": 0,
-            "desc": ""},
-        { "name": "C++", "points": 0,
-            "desc": ""},
-        { "name": "Java", "points": 0,
-            "desc": ""},
-        { "name": "Flutter", "points": 0,
-            "desc": ""},
-        { "name": "GO", "points": 0,
-            "desc": ""},
-        { "name": "Swift", "points": 0,
-            "desc": ""},
-        { "name": "C#", "points": 0,
-            "desc": "", "link": "https://www.youtube.com/watch?v=pSiIHe2uZ2w&list=PLPV2KyIb3jR6ZkG8gZwJYSjnXxmfPAl51"},
-        { "name": "TypeScript", "points": 0,
-            "desc": ""},
-        { "name": "PHP", "points": 0,
-            "desc": ""}
+        {
+            "name": "JavaScript",
+            "points": 0,
+            "desc": "JavaScript is a great choice for anyone that wants to learn a well-rounded language without taking years to reach proficiency. If you want to learn more about JavaScript, check out this resource: ",
+            "link": "https://www.w3schools.com/js/"
+        },
+        {
+            "name": "Python",
+            "points": 0,
+            "desc": "Python is recommended by many people as the best first language. It has a wide range of applications, can be useful in the fields of robotics and AI, and can be picked up quickly. Learn more here: ",
+            "link": "https://www.learnpython.org/"
+        },
+        {
+            "name": "C",
+            "points": 0,
+            "desc": "C has been around a long time. If you are willing to put in the time to learn it, it will make you very valuable. It will take a longer than many languages to reach proficiency. Learn more about C: ",
+            "link": ""},
+        {
+            "name": "C++",
+            "points": 0,
+            "desc": "C++ has a wide range of uses, from software, to robotics, to game development. The popular Unreal game engine uses C++ as it's primary language. To learn more about C++ and it's versatility, read on: ",
+            "link": ""
+        },
+        {
+            "name": "Java",
+            "points": 0,
+            "desc": "",
+            "link": ""
+        },
+        {
+            "name": "Flutter",
+            "points": 0,
+            "desc": "",
+            "link": ""
+        },
+        {
+            "name": "GO",
+            "points": 0,
+            "desc": "",
+            "link": ""
+        },
+        {
+            "name": "Swift",
+            "points": 0,
+            "desc": "",
+            "link": ""
+        },
+        {
+            "name": "C#",
+            "points": 0,
+            "desc": "C# is in the middle when it comes to the length of time to become proficient. It can be used to make software in the popular .NET framework, as well as to make games. The popular game engine Unity3D utilizes a variant of C#. Learn it:  ",
+            "link": "https://www.youtube.com/watch?v=pSiIHe2uZ2w&list=PLPV2KyIb3jR6ZkG8gZwJYSjnXxmfPAl51"
+        },
+        {
+            "name": "TypeScript",
+            "points": 0,
+            "desc": "",
+            "link": ""
+        },
+        {
+            "name": "PHP",
+            "points": 0,
+            "desc": "",
+            "link": ""
+        }
     ]
 }

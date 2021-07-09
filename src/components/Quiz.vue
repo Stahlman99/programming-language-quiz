@@ -6,7 +6,7 @@
   </div>
   <div class="px-12">
     <div v-if="questionIndex == null && !finalResults">
-      <h3 class="font-bold text-xl mt-24">What programming language should you start with?</h3>
+      <h3 class="font-bold text-xl mt-24">What programming language should you learn?</h3>
       <button class="px-4 py-2 font-bold mt-12 border border-black rounded-lg bg-yellow-400" @click="beginQuiz">Begin Quiz</button>
     </div>
     <div class="flex flex-col items-center" v-else-if="!finished">
