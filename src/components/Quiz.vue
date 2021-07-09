@@ -73,7 +73,7 @@ export default {
         }
       })
 
-      this.finalResults = { first: this.languages[0], second: this.languages[1], third: this.languages[2]};
+      this.finalResults = [this.languages[0], this.languages[1], this.languages[2]];
     }
   }
   
