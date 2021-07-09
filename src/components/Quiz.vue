@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <a href="https://twitter.com/_NathanD_"><img class="w-12 h-12 top-2 left-2 absolute" src="../assets/NathanD_Logo.png"/></a>
+  <div class="md:border md:rounded-lg md:border-black">
+    <a href="https://twitter.com/_NathanD_"><img class="w-12 h-12 top-1 left-2 absolute" src="../assets/NathanD_Logo.png"/></a>
     <a href="https://twitter.com/_NathanD_"><img class="w-12 h-7 top-3 right-2 absolute" src="../assets/twitter_logo.png"/></a>
     <a href="https://www.youtube.com/channel/UC8NKMRRaBPOiTlUYdMq49sw"><img class="w-12 h-8 top-3 right-16 absolute" src="../assets/youtube_logo.png"/></a>
   </div>
@@ -9,11 +9,11 @@
       <h3 class="font-bold text-xl mt-24">What programming language should you start with?</h3>
       <button class="px-4 py-2 font-bold mt-12 border border-black rounded-lg bg-yellow-400" @click="beginQuiz">Begin Quiz</button>
     </div>
-    <div v-else-if="!finished">
+    <div class="flex flex-col items-center" v-else-if="!finished">
       <Question :text="questions[questionIndex].text"/>
       <Answers :answers="questions[questionIndex].answers" @onClick="nextQuestion($event)"/>
     </div>
-    <div v-else>
+    <div class="flex justify-center" v-else>
       <Results :results="finalResults"/>
     </div>
   </div>

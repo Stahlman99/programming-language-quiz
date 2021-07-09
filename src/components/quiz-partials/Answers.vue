@@ -1,5 +1,5 @@
 <template>
-  <div v-for="(answer, index) in answers" :key="index">
+  <div v-for="(answer, index) in answers" :key="index" class="w-full md:w-1/3">
     <button :class="cardClass(index)" @click="$emit('onClick', answer.points)">
       <h3 class="font-bold text-lg">{{answer.text}}</h3>
     </button>
