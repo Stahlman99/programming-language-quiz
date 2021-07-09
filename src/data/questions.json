@@ -2,6 +2,7 @@
     "questions": [
         {
             "text": "What do you have the strongest desire to build/design?",
+            "weight": 3,
             "answers": [
                 {
                     "text": "Websites / Webapps",
@@ -42,6 +43,7 @@
         },
         {
             "text": "How long are you willing to study your new language before you are able to use it on real world projects?",
+            "weight": 2,
             "answers": [
                 {
                     "text": "A few months / Not too long",
@@ -70,6 +72,7 @@
         },
         {
             "text": "Are you interested in the artistic side of development (design) or working on the technical/logical side of development?",
+            "weight": 2,
             "answers": [
                 {
                     "text": "I'm an artistic flower",
@@ -97,6 +100,7 @@
         },
         {
             "text": "Is it more important to you that you work on many different modern projects, or that you have consistency and long lasting job security?",
+            "weight": 1,
             "answers": [
                 {
                     "text": "I'm a wild child",
@@ -121,6 +125,7 @@
         },
         {
             "text": "Are you interested in machinery, robotics or Artificial Intelligence?",
+            "weight": 1,
             "answers": [
                 {
                     "text": "I want to make smart toasters and fighting robots",
@@ -149,6 +154,7 @@
         },
         {
             "text": "Which of the following is the most important to you?",
+            "weight": 3,
             "answers": [
                 {
                     "text": "Building my skills quickly",
@@ -162,7 +168,6 @@
                     "points": [
                         "C",
                         "C++",
-                        "Swift",
                         "C#",
                         "PHP"
                     ]
