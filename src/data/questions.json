@@ -49,7 +49,8 @@
                     "text": "A few months / Not too long",
                     "points": [
                         "JavaScript",
-                        "Python"
+                        "Python",
+                        "C#"
                     ]
                 },
                 {
@@ -72,7 +73,7 @@
         },
         {
             "text": "Are you interested in the artistic side of development (design) or working on the technical/logical side of development?",
-            "weight": 2,
+            "weight": 1,
             "answers": [
                 {
                     "text": "I'm an artistic flower",
@@ -100,7 +101,7 @@
         },
         {
             "text": "Is it more important to you that you work on many different modern projects, or that you have consistency and long lasting job security?",
-            "weight": 1,
+            "weight": 2,
             "answers": [
                 {
                     "text": "I'm a wild child",
@@ -118,7 +119,8 @@
                         "C",
                         "C++",
                         "Java",
-                        "PHP"
+                        "PHP",
+                        "C#"
                     ]
                 }
             ]
@@ -154,13 +156,14 @@
         },
         {
             "text": "Which of the following is the most important to you?",
-            "weight": 3,
+            "weight": 2,
             "answers": [
                 {
                     "text": "Building my skills quickly",
                     "points": [
                         "JavaScript",
-                        "Python"
+                        "Python",
+                        "Flutter"
                     ]
                 },
                 {

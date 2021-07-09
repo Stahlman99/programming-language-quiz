@@ -59,7 +59,7 @@ export default {
     calulatePoints(points) {
       this.languages.forEach(language => {
         if(points.includes(language.name)) {
-          language.points += 1;
+          language.points += this.questions[this.questionIndex].weight;
         }
       });
     },
