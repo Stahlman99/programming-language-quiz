@@ -2,13 +2,13 @@
     "questions": [
         {
             "text": "What do you have the strongest desire to build/design?",
+            "weight": 3,
             "answers": [
                 {
                     "text": "Websites / Webapps",
                     "points": [
                         "JavaScript",
                         "TypeScript",
-                        "Ruby",
                         "Python",
                         "PHP"
                     ]
@@ -24,7 +24,6 @@
                 {
                     "text": "Computer Software",
                     "points": [
-                        "Java",
                         "JavaScript",
                         "C++",
                         "C",
@@ -35,7 +34,6 @@
                     "text": "Mobile Apps",
                     "points": [
                         "Flutter",
-                        "GO",
                         "Swift"
                     ]
                 }
@@ -43,13 +41,14 @@
         },
         {
             "text": "How long are you willing to study your new language before you are able to use it on real world projects?",
+            "weight": 2,
             "answers": [
                 {
                     "text": "A few months / Not too long",
                     "points": [
                         "JavaScript",
-                        "Ruby",
-                        "Python"
+                        "Python",
+                        "C#"
                     ]
                 },
                 {
@@ -57,13 +56,9 @@
                     "points": [
                         "JavaScript",
                         "Python",
-                        "Ruby",
                         "C",
                         "C++",
-                        "Java",
                         "Flutter",
-                        "SQL",
-                        "GO",
                         "Swift",
                         "C#",
                         "TypeScript",
@@ -73,32 +68,111 @@
             ]
         },
         {
-            "text": "How long are you willing to study your new language before you are able to use it on real world projects?",
+            "text": "Are you interested in the artistic side of development (design) or working on the technical/logical side of development?",
+            "weight": 1,
             "answers": [
                 {
-                    "text": "A few months / Not too long",
+                    "text": "I'm an artistic flower",
                     "points": [
                         "JavaScript",
                         "Ruby",
-                        "Python"
+                        "Flutter",
+                        "Swift"
                     ]
                 },
                 {
-                    "text": "A long time / 6 months to 1+ years",
+                    "text": "I'm a nerd all the way",
+                    "points": [
+                        "Python",
+                        "C",
+                        "C++",
+                        "C#",
+                        "TypeScript",
+                        "PHP"
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Is it more important to you that you work on many different modern projects, or that you have consistency and long lasting job security?",
+            "weight": 2,
+            "answers": [
+                {
+                    "text": "I'm a wild child",
+                    "points": [
+                        "JavaScript",
+                        "C#",
+                        "Python",
+                        "Flutter",
+                        "TypeScript"
+                    ]
+                },
+                {
+                    "text": "I'm as steady as a turtle",
+                    "points": [
+                        "C",
+                        "C++",
+                        "PHP",
+                        "C#"
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Are you interested in machinery, robotics or Artificial Intelligence?",
+            "weight": 1,
+            "answers": [
+                {
+                    "text": "I want to make smart toasters and fighting robots",
+                    "points": [
+                        "Python",
+                        "C",
+                        "C++"
+
+                    ]
+                },
+                {
+                    "text": "I would rather create programs for people to use",
                     "points": [
                         "JavaScript",
                         "Python",
-                        "Ruby",
-                        "C",
-                        "C++",
-                        "Java",
                         "Flutter",
-                        "SQL",
-                        "GO",
                         "Swift",
                         "C#",
                         "TypeScript",
                         "PHP"
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Which of the following is the most important to you?",
+            "weight": 2,
+            "answers": [
+                {
+                    "text": "Building my skills quickly",
+                    "points": [
+                        "JavaScript",
+                        "Python",
+                        "Flutter"
+                    ]
+                },
+                {
+                    "text": "Getting a job at a big company",
+                    "points": [
+                        "C",
+                        "C++",
+                        "C#",
+                        "PHP"
+                    ]
+                },
+                {
+                    "text": "Building modern, revolutionary projects",
+                    "points": [
+                        "JavaScript",
+                        "Python",
+                        "Flutter",
+                        "TypeScript"
                     ]
                 }
             ]

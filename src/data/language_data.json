@@ -1,24 +1,57 @@
 {
     "languages": [
-        { "name": "JavaScript", "points": 0},
-        { "name": "Python", "points": 0},
-        { "name": "Ruby", "points": 0},
-        { "name": "C", "points": 0},
-        { "name": "C++", "points": 0},
-        { "name": "Java", "points": 0},
-        { "name": "Flutter", "points": 0},
-        { "name": "SQL", "points": 0},
-        { "name": "GO", "points": 0},
-        { "name": "Swift", "points": 0},
-        { "name": "C#", "points": 0},
-        { "name": "TypeScript", "points": 0},
-        { "name": "PHP", "points": 0}
-    ],
-
-    "paths": [
-        "Web Developer",
-        "Software Engineer",
-        "Game Developer",
-        "Mobile Developer"
+        {
+            "name": "JavaScript",
+            "points": 0,
+            "desc": "JavaScript is a great choice for anyone that wants to learn a well-rounded language without taking years to reach proficiency. If you want to learn more about JavaScript, check out this resource: ",
+            "link": "https://www.w3schools.com/js/"
+        },
+        {
+            "name": "Python",
+            "points": 0,
+            "desc": "Python is recommended by many people as the best first language. It has a wide range of applications, can be useful in the fields of robotics and AI, and can be picked up quickly. Learn more here: ",
+            "link": "https://www.learnpython.org/"
+        },
+        {
+            "name": "C",
+            "points": 0,
+            "desc": "C has been around a long time. If you are willing to put in the time to learn it, it will make you very valuable. It will take a longer than many languages to reach proficiency. Learn more about C: ",
+            "link": "https://www.learn-c.org/"},
+        {
+            "name": "C++",
+            "points": 0,
+            "desc": "C++ has a wide range of uses, from software, to robotics, to game development. The popular Unreal game engine uses C++ as it's primary language. To learn more about C++ and it's versatility, read on: ",
+            "link": "https://www.w3schools.com/cpp/"
+        },
+        {
+            "name": "Flutter",
+            "points": 0,
+            "desc": "Flutter is a relatively new addition to this list. It's technically not a language, but rather a framework for designing native apps (apps that run on the device for many different operating systems). It utilizes Dart as the language for 'coding.' Learn about that: ",
+            "link": "https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ"
+        },
+        {
+            "name": "Swift",
+            "points": 0,
+            "desc": "Swift is a programming language designed for making applications to run on Apple platforms (IOS, tvOS, macOS, etc.), although it is now possible to make Android apps as well. Learn more about it: ",
+            "link": "https://www.udacity.com/course/swift-for-beginners--ud1022"
+        },
+        {
+            "name": "C#",
+            "points": 0,
+            "desc": "C# is in the middle when it comes to the length of time to become proficient. It can be used to make software in the popular .NET framework, as well as to make games. The popular game engine Unity3D utilizes a variant of C#. Learn it:  ",
+            "link": "https://www.youtube.com/watch?v=pSiIHe2uZ2w&list=PLPV2KyIb3jR6ZkG8gZwJYSjnXxmfPAl51"
+        },
+        {
+            "name": "TypeScript",
+            "points": 0,
+            "desc": "TypeScript is a programming language developed and maintained by Microsoft. It is built on JavaScript and gives developers ways to make the code cleaner (in simple terms). TypeScript is designed for making large applications/programs. Learn more: ",
+            "link": "https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html"
+        },
+        {
+            "name": "PHP",
+            "points": 0,
+            "desc": "PHP is primarily a back-end language that has been used on the server side of web applications for more than 25 years. It is a staple in the programming world, and definately worth looking into if you want to get a footing into the web development world. Learn more: ",
+            "link": "https://www.learn-php.org/"
+        }
     ]
 }
