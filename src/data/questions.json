@@ -24,7 +24,6 @@
                 {
                     "text": "Computer Software",
                     "points": [
-                        "Java",
                         "JavaScript",
                         "C++",
                         "C",
@@ -60,7 +59,6 @@
                         "Python",
                         "C",
                         "C++",
-                        "Java",
                         "Flutter",
                         "GO",
                         "Swift",
@@ -91,7 +89,6 @@
                         "Python",
                         "C",
                         "C++",
-                        "Java",
                         "C#",
                         "TypeScript",
                         "PHP"
@@ -118,7 +115,6 @@
                     "points": [
                         "C",
                         "C++",
-                        "Java",
                         "PHP",
                         "C#"
                     ]
@@ -143,7 +139,6 @@
                     "points": [
                         "JavaScript",
                         "Python",
-                        "Java",
                         "Flutter",
                         "GO",
                         "Swift",
