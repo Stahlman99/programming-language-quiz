@@ -16,30 +16,24 @@
             "name": "C",
             "points": 0,
             "desc": "C has been around a long time. If you are willing to put in the time to learn it, it will make you very valuable. It will take a longer than many languages to reach proficiency. Learn more about C: ",
-            "link": ""},
+            "link": "https://www.learn-c.org/"},
         {
             "name": "C++",
             "points": 0,
             "desc": "C++ has a wide range of uses, from software, to robotics, to game development. The popular Unreal game engine uses C++ as it's primary language. To learn more about C++ and it's versatility, read on: ",
-            "link": ""
+            "link": "https://www.w3schools.com/cpp/"
         },
         {
             "name": "Flutter",
             "points": 0,
-            "desc": "",
-            "link": ""
-        },
-        {
-            "name": "GO",
-            "points": 0,
-            "desc": "",
-            "link": ""
+            "desc": "Flutter is a relatively new addition to this list. It's technically not a language, but rather a framework for designing native apps (apps that run on the device for many different operating systems). It utilizes Dart as the language for 'coding.' Learn about that: ",
+            "link": "https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ"
         },
         {
             "name": "Swift",
             "points": 0,
-            "desc": "",
-            "link": ""
+            "desc": "Swift is a programming language designed for making applications to run on Apple platforms (IOS, tvOS, macOS, etc.), although it is now possible to make Android apps as well. Learn more about it: ",
+            "link": "https://www.udacity.com/course/swift-for-beginners--ud1022"
         },
         {
             "name": "C#",
@@ -50,14 +44,14 @@
         {
             "name": "TypeScript",
             "points": 0,
-            "desc": "",
-            "link": ""
+            "desc": "TypeScript is a programming language developed and maintained by Microsoft. It is built on JavaScript and gives developers ways to make the code cleaner (in simple terms). TypeScript is designed for making large applications/programs. Learn more: ",
+            "link": "https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html"
         },
         {
             "name": "PHP",
             "points": 0,
-            "desc": "",
-            "link": ""
+            "desc": "PHP is primarily a back-end language that has been used on the server side of web applications for more than 25 years. It is a staple in the programming world, and definately worth looking into if you want to get a footing into the web development world. Learn more: ",
+            "link": "https://www.learn-php.org/"
         }
     ]
 }
